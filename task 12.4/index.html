@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 12.4 - Search & Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>User Directory</h1>
+
+    <div class="controls">
+
+        <input
+            type="text"
+            id="search"
+            placeholder="Search by name or email..."
+        >
+
+        <select id="sort">
+            <option value="az">Sort A-Z</option>
+            <option value="za">Sort Z-A</option>
+        </select>
+
+        <select id="cityFilter">
+            <option value="all">All Cities</option>
+        </select>
+
+    </div>
+
+    <div id="users-container"></div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
